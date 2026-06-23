@@ -1,0 +1,15 @@
+[port_configuration]
+pci_address = "0000:01:00.01"
+socket_id = 0
+mtu = 1500
+
+[stream_profile]
+name = "UDP_High_Load"
+pps_rate = 1488095
+packet_size = 64
+
+[packet_header]
+src_mac = "00:1B:44:11:3A:B7"
+dst_mac = "00:1B:44:11:3A:B8"
+src_ip = "192.168.1.10"
+dst_ip = "10.0.0.1"
